@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+contract First{
+    uint8 age;
+    event readAge(uint8,string);
+
+    function updateAge(uint8 _age) public{
+        age=_age;
+        emit readAge(age,"Hello!! Age has been updated");
+    }
+}
