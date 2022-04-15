@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+contract First{
+    uint[3] arr=[5,78,99];
+    function updateValue() public {
+        arr=[44,55,66];
+    }
+    function getValue() public view returns(uint){
+        return arr[2];
+    }
+}
+// Note: we only use pop function with dynamic array
