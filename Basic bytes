@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+contract First{
+    bytes myArray= new bytes(2);
+    function updateValue() public returns(bytes memory){
+        myArray="hello";
+        myArray.push("H");
+        return myArray;
+    }
+}
+// Note: Byte means it convert values into hexa and then save the hexa value of H and hello
