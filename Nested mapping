@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+contract First{
+    mapping (uint256 => mapping(string=> string)) courses;
+    function addCourse(uint256 counter, string memory rollNum, string memory course) public{
+            courses[counter][rollNum]=course;
+    }
+    function findCourse(uint256 _counter,string memory rollNum) public view returns (string memory) {
+        return courses[_counter][rollNum];
+    }
+}
