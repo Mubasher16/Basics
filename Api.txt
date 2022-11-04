@@ -1,0 +1,209 @@
+// //const sdk = require('api')('@nftgo/v1.0#5e4t3gl8a4j79u');
+// // const axios = require('axios');
+// // const sdk = require('api')('@opensea/v1.0#10fy4ug30l7qohm4q');
+// // var api = require('etherscan-api').init('9774ZKF4KC76U8DU9TS9G7Z4BDEE95HW1J');
+// const test= async() => {
+//     // const options = {
+//     //     method: 'GET',
+//     //     headers: {
+//     //       accept: 'application/json',
+//     //       'X-API-KEY': '747690ae-c0e8-4e5f-bf57-a14d8b03fedb'
+//     //     }
+//     //   };
+      
+//     //   fetch('https://data-api.nftgo.io/eth/v1/history/nft/transactions?contract_address=0x40948a124b632a900a58AD01E2EF0534b97A1087&token_id=861&event=all&scroll=1665662940&scroll_limit=20', options)
+//     //     .then(response => response.json())
+//     //     .then(response => console.log(response.transactions.length))
+//     //     .catch(err => console.error(err));
+
+
+
+
+    
+
+// // let response = null;
+// // new Promise(async (resolve, reject) => {
+// //   try {
+// //     response = await axios.get('https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest', {
+// //       headers: {
+// //         'X-CMC_PRO_API_KEY': '2fc51a52-0b9d-4853-83bd-fb1c1f939656',
+// //       },
+// //     });
+// //   } catch(ex) {
+// //     response = null;
+// //     // error
+// //     console.log(ex);
+// //     reject(ex);
+// //   }
+// //   if (response) {
+// //     // success
+// //     const json = response.data;
+// //     console.log(json);
+// //     resolve(json);
+// //   }
+// // });
+
+
+// // let response = null;
+// // let api = '9774ZKF4KC76U8DU9TS9G7Z4BDEE95HW1J'
+ 
+// //   try {
+// //     response = await axios.get(`https://api-goerli.etherscan.io//api?module=token&action=tokenholderlist&contractaddress=0x51445dcDdF5246229bAE8C0BA3EA462e63038641&page=1&offset=10&apikey=${api}`);
+// //     console.log(response.data)
+// //   } catch(ex) {
+// //     response = null;
+// //     // error
+// //     console.log(ex);
+     
+//   //}
+
+
+
+// // Setup: npm install alchemy-sdk
+// // Github: https://github.com/alchemyplatform/alchemy-sdk-js
+// // const { Network, Alchemy }= require("alchemy-sdk");
+
+// // // Optional config object, but defaults to demo api-key and eth-mainnet.
+// // const settings = {
+// //   apiKey: "R5_xB_Vl5NU0cjYw9CUlZ8BTjnw0bt8O", // Replace with your Alchemy API Key.
+// //   network: Network.ETH_GOERLI, // Replace with your network.
+// // };
+// // const alchemy = new Alchemy(settings);
+// // const web3 = createAlchemyWeb3(
+// //   `https://eth-mainnet.g.alchemy.com/v2/${apiKey}`);
+// // //const response = await alchemy.core.getBalance("0xdf60224322f43C4b8da6C6780d794F557E90e89d", "latest");
+// // const response = await alchemy.core.getCode("0xdf60224322f43C4b8da6C6780d794F557E90e89d");
+// // console.log(response);
+
+
+// //const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
+
+// // Replace with your Alchemy API key:
+// //const apiKey = "R5_xB_Vl5NU0cjYw9CUlZ8BTjnw0bt8O";
+// // URL: https://polygon-mainnet.g.alchemyapi.io/v2/your-api-key
+// // RequestType: POST
+// // Body: 
+// // {
+// //     "jsonrpc":"2.0",
+// //     "method":"eth_getProof",
+// //     "params":["0x7F0d15C7FAae65896648C8273B6d7E43f58Fa842",["0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"],"latest"],
+// //     "id":1
+// // }
+
+// // try {
+// //    const resp= await axios.post("https://eth-mainnet.g.alchemyapi.io/v2/R5_xB_Vl5NU0cjYw9CUlZ8BTjnw0bt8O",
+// //    {
+// //     body:{
+// //       "jsonrpc":"2.0",
+// //       "method":"eth_getProof",
+// //       "params":["0x7F0d15C7FAae65896648C8273B6d7E43f58Fa842",["0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"],"latest"],
+// //       "id":1
+// //     }
+   
+// //    })
+// //    console.log("RESPONSE",resp)
+
+  
+// // } catch (error) {
+// //      console.log(error)
+// // }
+
+
+// // const options = {
+// //   method: 'POST',
+// //   headers: {accept: 'application/json', 'content-type': 'application/json'},
+// //   body: JSON.stringify({id: 1, jsonrpc: '2.0', method: 'eth_getProof',params:["0xdf60224322f43C4b8da6C6780d794F557E90e89d",["0x49337554c876188a3c7138be2542989dd5944cda3561ce3a3412fd3b5637a48a"],"latest"]})
+// // };
+// // fetch('https://eth-goerli.g.alchemy.com/v2/sCbjvBNle9MmkfxivsY9utprP648DG2z', options)
+// //   .then(response => response.json())
+// //   .then(response =>console.log(response.result))
+// //   .catch(err => console.error(err));
+
+// //  console.log("txn", txn)
+// //const web3 = require('web3');
+// // const ethers = require('ethers')
+// // const sdk = require('api')('@alchemy-docs/v1.0#5f5w81jil7w4qahi');
+// // const resp= await  sdk.ethGetlogs({
+// //   id: 1,
+// //   jsonrpc: '2.0',
+// //   method: 'eth_getLogs',
+// //   params: [
+// //     {
+// //       address: [
+// //         '0x87556BEBDf1A5a6a74d21508402F95c11E803BEc'
+// //       ],
+// //       fromBlock: '0x00',
+// //       toBlock: 'latest',
+// //       topics: [
+// //         '0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822'
+// //       ]
+// //     }
+// //   ]
+// // }, {apiKey: 'R5_xB_Vl5NU0cjYw9CUlZ8BTjnw0bt8O'})
+
+// // console.log("Value",resp.result)
+// // const data = resp.result[10].data;
+// // console.log("Encoded data",data)
+
+// //const data = '0x9e461e350000000000000000000000000000000000000000000000000000000000000140000000000000000000000000000000000000000000000000000000000000018000000000000000000000000000000000000000000000152d02c7e14af6800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000640000000000000000000000007cde45a1c345281b6a29f7a4da3869f866f2e6fb000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000152d02c7e14af68000000000000000000000000000005b38da6a701c568545dcfcb03fcb875f56beddc400000000000000000000000000000000000000000000000000000000635181a800000000000000000000000000000000000000000000000000000000000000066e65776e6674000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000036e66740000000000000000000000000000000000000000000000000000000000';
+// // const decode=ethers.utils.defaultAbiCoder.decode(
+// //   ['address', 'uint256', 'uint256', 'uint256'],
+// //   ethers.utils.hexDataSlice(data,0)
+// // )
+// // console.log("decode",converter.hexToDec(decode[0]._hex))
+// // console.log("decode",converter.hexToDec(decode[0]._hex))
+// // console.log("decode",decode)
+
+
+
+// //const { Network, Alchemy } = require('alchemy-sdk');
+
+
+// // const settings = {
+// //   apiKey: 'R5_xB_Vl5NU0cjYw9CUlZ8BTjnw0bt8O', 
+// //   network: Network.ETH_MAINNET, 
+// // };
+
+// //const alchemy = new Alchemy(settings);
+// //alchemy.core.getTokenBalances("0xd8da6bf26964af9d7eed9e03e53415d37aa96045", ["0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"]).then(console.log);
+// // const data = await alchemy.core.getAssetTransfers({
+// //   fromBlock: "0x0",
+// //   fromAddress: "0xd8da6bf26964af9d7eed9e03e53415d37aa96045",
+// //   category: ["external", "internal", "erc20"],
+// // });
+
+// //console.log(data);
+
+
+// }
+
+// test();
+
+// Setup: npm install alchemy-sdk
+const { Network, Alchemy } = require('alchemy-sdk');
+
+const config = {
+  apiKey: 'R5_xB_Vl5NU0cjYw9CUlZ8BTjnw0bt8O',
+  network: Network.ETH_MAINNET,
+};
+const alchemy = new Alchemy(config);
+
+const main = async () => {
+  // Wallet address
+  const address = "0xd8da6bf26964af9d7eed9e03e53415d37aa96045";
+
+  // Get token balances
+  const balances = await alchemy.core.getTokenBalances(address, 'erc20');
+};
+
+const runMain = async () => {
+  try {
+    await main();
+    process.exit(0);
+  } catch (error) {
+    console.log(error);
+    process.exit(1);
+  }
+};
+
+runMain();
